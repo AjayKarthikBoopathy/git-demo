@@ -1,0 +1,27 @@
+Git Token:-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 
+
+Steps to upload larger size files in github account using Git Tool:-
+
+*First create a repository with any name in github account.
+*Then go to the folder contains files to be uploaded.
+*Do not right click on folder name instead go into the folder containing 
+	files like index.html, script.js
+*Inside that folder right click anywhere in the mouse and give "Git Bash Here"
+*Do not right click on the files instead right click anywhere.  
+
+Type the below commands in the command prompt:-
+1)git init
+2)git remote add origin https...			  //[gitlink] =>link in newly created repository in github acc.
+
+In case for the first time or else skip below two commands:-
+3)git config --global user.name "AjayKarthikBoopathy"		//username of github account
+4)git config --global user.email "ajaykarthikbak97@gmail.com"
+
+5)git remote -v
+6)git add .
+7)git commit -m "First commit"  	 		  //any name "First commit" is better
+8)git branch -M main
+9)git push origin main				  //Files automatically uploaded finished
+
+Note:-
+2)git remote set-url origin - if there is error in second step only[gitlink]
